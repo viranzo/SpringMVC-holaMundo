@@ -26,7 +26,7 @@ public class RootControler {
         Map<String, Object> model = new HashMap<String, Object>();
         String viewName;
         
-            model.put("varModelo", "Contenido variable");
+            model.put("message", "Contenido del mensaje");
             viewName = "holaMundo";
 
         return new ModelAndView(viewName, model);

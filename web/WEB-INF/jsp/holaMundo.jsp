@@ -9,5 +9,6 @@
     </head>
     <body>
         <p>Hola Mundo by Vicente Iranzo Gómez</p>
+        <p>${message}<p>
     </body>
 </html>
